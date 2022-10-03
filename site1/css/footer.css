@@ -1,0 +1,90 @@
+/*-----------------FOOTER---------------------*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer div{
+    margin: 10px 10px;
+}
+
+footer a{
+    color: white;
+}
+
+footer p{
+    font-size: clamp(0.7em, 1.2vw, 1em); 
+}
+
+/* ------------Logo------------ */
+.footerLogo{
+    
+}
+
+.footerLogo img{
+    width: 50px;
+}
+
+
+/* ------------Networks------------ */
+
+.networks .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.networks .icons img{
+    width: 35px;
+    margin: 0 5px;
+}
+
+/* ------------Policy------------ */
+
+.policy{
+    padding: 0;
+    list-style: none;
+}
+
+
+/* ------------Partners------------ */
+.partnersIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnersIcons img{
+    width: 90px;
+}
+
+
+@media (min-width:800px) {
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    .footerLogo img{
+        width: 65px;
+    }
+
+    .networks .icons img{
+        width: 40px;
+    }
+
+    .partnersIcons img{
+        width: 110px;
+    }
+}
+

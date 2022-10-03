@@ -1,0 +1,107 @@
+
+/*-----------------HEADER---------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 20px;
+    z-index: 999999;
+    position: fixed;
+    width: 100%;
+    font-size: clamp(0.8em, 1vw, 1em);
+}
+
+
+
+/* logo  */
+.headerLogo{
+    width: 30px;
+}
+
+.headerLogo img{
+    width: 100%;
+}
+
+
+/* button navigation  */
+
+.buttonsNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.linkProgrammation{
+    color: white;
+    margin: 0 5px;
+}
+
+.searchButton{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 40px;
+    margin: 0 2px;
+}
+
+.searchButton img{
+    width: 100%;
+}
+
+
+
+
+/* nav  */
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    padding-left: 15px;
+}
+
+header nav ul li a{
+    color: white;
+    font-weight: 600;
+}
+
+
+.navMobile{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toggle div{
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    margin-bottom: 6px;
+}
+
+.navMobile ul{
+    height: 0;
+    opacity: 0;
+    display: none;
+}
+/*------------------------------------------*/
+
+
+@media (min-width:800px) {
+  
+    .headerLogo{
+        width: 50px;
+    }
+
+    .connectButton, .linkProgrammatio, .searchButton{
+        margin: 0 10px;
+    }
+  
+    
+}

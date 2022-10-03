@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/init.css" />
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/programmation.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Rendez-vous cinéma</title>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <a href="./accueil-site.html"><img src="./assets/logo.png" alt="logo cinéma" /></a>
+        </div>
+        <div class="nav">
+            <div class="buttonsNav">
+                <a href="./programmation.html" class="linkProgrammation">Programmation</a>
+                <button class="searchButton"><img src="./assets/icons/search_white.png" alt=""></button>
+            </div>
+           
+            <nav class="navMobile">
+            <div class="toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul>
+                <li><a href="./programmation.html">À l'affiche</a></li>
+                <li><a href="./evenements.html">Événements</a></li>
+                <li><a href="">Boutique</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./cinema.html">Le Rendez-vous</a></li>
+            </ul>
+            </nav>
+        </div> 
+    </header>
+    <main>
+        <section class="carousel">
+            <div class="arrows">
+                <div class="leftArrow">
+                    <div class="arrowSideLeft"></div>
+                    <div class="arrowSideRight"></div>
+                  </div>
+                <div class="rightArrow">
+                    <div class="arrowSideLeft"></div>
+                    <div class="arrowSideRight"></div>
+                  </div>
+                 
+            </div>
+            <div class="test">
+                <div class="slideDescription">
+                    <div class="text">
+                        <h1>Outrage</h1>
+                        <p>Une guerre entre clans yakuzas a éclaté</p>
+                    </div>
+                    <button>Ticket</button>
+                </div>
+            </div>
+        </section>
+        <section class="dates">
+            <div class="searchFilm">
+                <input type="text" name="" id="" placeholder="Rechercher un film">
+                <button><img src="./assets/icons/search_white.png" alt=""></button>
+            </div>
+            <div class="selectDate">
+                <div class="dateImgContainer">
+                    <img src="./assets/dates_forme.png" alt="">
+                </div>
+                <div class="select">
+                    <div class="what">
+                        <h3>QUOI</h3>
+                        <ul>
+                            <li class="focus">Tous</li>
+                            <li>Nouveautés</li>
+                            <li>Rediffusion</li>
+                            <li>Sélection du public</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="when">
+                        <h3>QUAND</h3>
+                        <ul>
+                            <li class="focus">Toutes les dates</li>
+                            <li>Aujourd'hui</li>
+                            <li>Demain</li>
+                            <li>Mercredi 10/04</li>
+                            <li>Jeudi 11/04</li>
+                            <li>
+                                <div class="dateRightArrow rightArrow">
+                                    <div class="arrowSideLeft"></div>
+                                    <div class="arrowSideRight"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="films">
+            <div class="card" id="cardTest">
+                <div class="filmImg">
+                    <img src="./assets/images/lostInTranslation1.jpeg" alt="">
+                </div>
+                <div class="filmDescription">
+                    <div class="title">
+                        <h2>Lost In Tranlation</h2>
+                        <div class="infos">
+                            <p class="date">2003</p>
+                            <p class="genre">Romance</p>
+                            <p class="time">1h42</p>
+                        </div>
+                    </div>
+                    <p class="shortDescription">Alors qu ele decalage horaire les empeche tous les deux de dormir, Bob et Charlotte vont prendre l'habitude de se retrouver au bar..</p>
+                    <button>voir le film</button>
+                </div>
+            </div>
+        </section>
+        <button class="seeMore">voir plus</button>
+        <section class="wellNoted">
+            <h1>Les mieux notés par la presse</h1>
+            <div class="reviewContainer">
+                <div class="reviewLeftArrow leftArrow">
+                    <div class="arrowSideLeft"></div>
+                    <div class="arrowSideRight"></div>
+                </div>
+                <div class="reviewSlide">
+                    <div class="reviewDescription">
+                        <div class="titleNote">
+                            <h2>Porco Rosso</h2>
+                            <div class="stars">
+                                <img src="./assets/icons/red_star.png" alt="">
+                                <img src="./assets/icons/red_star.png" alt="">
+                                <img src="./assets/icons/red_star.png" alt="">
+                                <img src="./assets/icons/red_star.png" alt="">
+                                <img src="./assets/icons/red_star.png" alt="">
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h3>Les Inrockuptibles</h3>
+                            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ea voluptas veritatis, iusto dolores distinctio."</p>
+                        </div>
+                        <button>Voir le film</button>
+                    </div>
+                    <div class="reviewImgContainer">
+                        <img src="./assets/images/porcoRosso1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="reviewRightArrow rightArrow">
+                    <div class="arrowSideLeft"></div>
+                    <div class="arrowSideRight"></div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="downloadApp">
+            <div class="clickImages">
+                <div class="imagesContainer">
+                    <img src="./assets/app_images.png" alt="">
+                </div>
+                <button class="downloadAppButton">Télécharger l'application</button>
+            </div>
+            <div class="text">
+                <h3>Participer à l'expérience Rendez-Vous cinéma</h3>
+                <p>Partager avec d'autres passionés nos avis sur les films vus au Rendez-Vous cinéma !</p>
+                <p>Choisir le prochain le film qui sortira en salle :)</p>
+                <p>Enregistrer les films en favoris ou bien créer une playlist d'aprés les BO de nos films préférés</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerLogo">
+            <a href="./accueil-site.html"><img src="./assets/logo.png" alt="logo cinéma" /></a>
+        </div>
+        <div class="adress">
+            <h4>Rendez-Vous cinéma</h4>
+            <p>23-26 rue Saint-Antonin</p>
+            <p>31000 Toulouse</p>
+        </div>
+        <div class="networks">
+            <h4>Suivre nos actualités</h4>
+            <div class="icons">
+                <a href=""><img src="./assets/icons/Twitter.svg" alt=""></a>
+                <a href=""><img src="./assets/icons/Instagram.svg" alt=""></a>
+                <a href=""><img src="./assets/icons/Facebook.svg" alt=""></a>
+            </div>
+        </div>
+       <ul class="policy">
+        <li><a href="">Contact</a></li>
+        <li><a href="">Mentions légales</a></li>
+        <li><a href="">Conditions générakes</a></li>
+        <li><a href="">Politique de confidentialité</a></li>
+       </ul>
+       <div class="partners">
+            <h4>Le Rendez-Vous est soutenu par :</h4>
+            <div class="partnersIcons">
+                <img src="./assets/images/logo-toulouse-metropole-blanc.png" alt="">
+            </div>
+       </div>
+    </footer>
+    <script src="./js/programmation.js"></script>
+</body>
+</html>

@@ -1,0 +1,564 @@
+/*-----------------MAIN-----------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.rightArrow, .leftArrow{
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    bottom: 0;
+    cursor: pointer;
+}
+
+.rightArrow{
+    transform: rotate(-90deg);
+}
+
+.leftArrow{
+    transform: rotate(90deg);
+}
+
+.arrowSideLeft{
+    position: relative;
+    left: -9%;
+	height: 16px;
+    width: 3px;
+    transform: rotate(-45deg);
+}
+
+.arrowSideRight{
+    position: relative;
+    left: 9%;
+	height: 16px;
+    width: 3px;
+    transform: rotate(45deg);
+}
+
+
+
+/* -----------------------  */
+/*--------CAROUSEL--------*/
+/* -----------------------  */
+
+.carousel{
+    width: 100%; 
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.slide, .test{
+    display: none;
+}
+
+.carousel .slide.active{
+    display: block;
+    background: url("../assets/images/outrage1.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+/*------description------*/
+
+.slideDescription{
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+    position: relative;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slideDescription h1{
+    text-transform: uppercase;
+}
+
+.slideDescription button{
+    width: 120px;
+    background-color: #E13E31;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/*------arrows------*/
+.arrows{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    top: 30vh;
+    width: 100%;
+}
+
+.carousel .arrows .rightArrow, .carousel .arrows .leftArrow{
+    bottom: 0;
+    align-self: flex-end;
+    border: 2px solid #E13E31;
+}
+
+.carousel .arrows .arrowSideLeft,.carousel .arrows .arrowSideRight{
+    background-color: #E13E31;
+}
+
+
+
+
+/* -----------------------  */
+/*--------DATES--------*/
+/* -----------------------  */
+
+.dates{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* rechercher film  */
+
+.searchFilm{
+    display: flex;
+    height: 40px;
+    margin: 20px 0;
+    align-self: center;
+}
+
+.searchFilm input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #DADADA;
+    padding-left: 5px;
+}
+
+.searchFilm button{
+    width: 50px;
+    background-color: #E13E31;
+    border-radius: 0;
+    box-shadow: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchFilm button img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+/* selectionner date  */
+
+.selectDate{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.select{
+    align-self:center;
+    width: 100%;
+}
+
+.dateImgContainer{
+    min-width: 70px;
+    max-width: 130px;
+    margin-right: 10px;
+}
+
+.dateImgContainer img{
+    width: 100%;
+}
+
+.what, .when{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.what h3, .when h3{
+    width: 80px;
+    border-right: 1px solid #DADADA;
+    margin: 10px 5px;
+}
+
+.what ul, .when ul{
+   list-style: none;
+   padding: 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   text-align: left;
+   width: 100%;
+   align-items: center;
+}
+
+.what ul li, .when ul li{
+    padding-right:10px;
+    color: #575757;
+ }
+
+ .what ul li.focus, .when ul li.focus{
+    font-weight: 800;
+    color: black;
+ }
+
+ .dateRightArrow{
+    border: 2px solid #DADADA;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+ }
+
+ .dateRightArrow .arrowSideLeft, .dateRightArrow .arrowSideRight{
+    margin: 0;
+    background-color: #DADADA;
+    height: 12px;
+ }
+
+/* -----------------------  */
+/*--------FILMS--------*/
+/* -----------------------  */
+
+.films{
+    width: 90%;
+}
+
+.films #cardTest{
+    display: none;
+}
+
+
+.films .card{
+    box-shadow: 2px 2px 5px rgba(176, 174, 174, 0.5);
+    margin-bottom: 20px;
+}
+
+.films .card .filmImg{
+    width: 100%;
+}
+
+.films .card .filmImg img{
+    width: 100%;
+}
+
+.films .card .filmDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+.films .card .filmDescription .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.films .card .filmDescription .title h2{
+    margin-bottom: 10px;
+}
+
+.films .card .filmDescription .title .infos{
+    display: flex;
+    color: rgba(0,0,0, 0.5);
+    font-size: 0.8em;
+    text-align: end;
+}
+
+.films .card .filmDescription .title .infos .date, .films .card .filmDescription .title .infos .genre{
+    border-right: 1px solid rgba(0,0,0, 0.5);
+    padding:0 4px;
+}
+
+.films .card .filmDescription .shortDescription{
+    font-size: 0.8em;
+    color: rgba(0,0,0, 0.5);
+}
+
+
+.films .card .filmDescription button{
+    font-size: 0.8em;
+    margin: 20px 0;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+
+/* button see more  */
+.seeMore.notClick{
+    color: #DADADA;
+    border: 1px solid #DADADA;
+    box-shadow: none;
+}
+
+.seeMore.notClick{
+    display: none;
+}
+
+
+
+
+/* -----------------------  */
+/*--------WELL NOTED--------*/
+/* -----------------------  */
+.wellNoted{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.wellNoted h1{
+    margin-bottom: 20px;
+}
+
+.reviewContainer{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.reviewSlide{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #edebeb;
+}
+
+.reviewImgContainer{
+    width: 100%;
+    max-height: 200px;
+}
+
+.reviewImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviewDescription{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.titleNote{
+    display: flex;
+    align-items: center;
+}
+
+.titleNote h2{
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.stars{
+    display: flex;
+}
+
+.stars img{
+    width: 20px;
+}
+
+.review{
+    margin: 30px 0;
+}
+
+.review h3{
+    font-weight: 600;
+}
+
+.review p{
+    margin: 10px 0;
+}
+
+
+.reviewDescription button{
+    align-self: center;
+}
+
+.reviewLeftArrow, .reviewRightArrow{
+    border: 2px solid #DADADA;
+}
+
+.reviewContainer .arrowSideLeft,.reviewContainer .arrowSideRight{
+    background-color: #DADADA;
+}
+
+
+
+
+/* -----------------------  */
+/*--------DOWNLOAD APP--------*/
+/* -----------------------  */
+
+
+.downloadApp{
+    background-color: #DADADA;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.clickImages{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.downloadAppButton{
+    background-color: #E13E31;
+    box-shadow: none;
+    color: white;
+    width: 80%;
+    height: 30px;
+}
+
+
+.clickImages .imagesContainer{
+    width: 40%;
+    margin: 15px 0;
+}
+
+.clickImages .imagesContainer img{
+    width: 100%;
+}
+
+
+.downloadApp .text{
+    text-align: center;
+    width: 80%;
+}
+
+.downloadApp .text h3{
+    margin-bottom: 10px;
+}
+
+
+
+@media (min-width:800px) {
+    /* -----------------------  */
+    /*--------CAROUSEL--------*/
+    /* -----------------------  */
+
+
+    .slideDescription{
+        padding: 20px 30px;
+    }
+
+
+    /* -----------------------  */
+    /*--------DATES--------*/
+    /* -----------------------  */
+
+
+    .dateImgContainer{
+        margin-right: 20px;
+    }
+
+
+    .what h3, .when h3{
+        width: 90px;
+        margin: 10px 10px;
+    }
+
+    .dateRightArrow{
+        width: 40px;
+        height: 40px;
+     }
+    
+     .dateRightArrow .arrowSideLeft, .dateRightArrow .arrowSideRight{
+        height: 16px;
+     }
+    
+
+
+    /* -----------------------  */
+    /*--------FILM--------*/
+    /* -----------------------  */
+
+
+    .films{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    } 
+
+
+    /* -----------------------  */
+    /*--------WELL NOTED--------*/
+    /* -----------------------  */
+
+    .reviewSlide{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .reviewImgContainer{
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .stars img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+    /* -----------------------  */
+    /*--------DOWNLOAD APP--------*/
+    /* -----------------------  */
+
+    .downloadApp{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    .clickImages{
+        flex-direction: column;
+    }
+
+    .downloadApp .text{
+        text-align: left;
+        width: 80%;
+    }
+
+    .downloadAppButton{
+        width: 70%;
+        height: 40px;
+    }
+
+}
+
+
+
