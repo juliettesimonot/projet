@@ -93,6 +93,7 @@ object RequestUtils {
             it.film_director = data.Director
             it.film_released_date = data.Year
             it.film_runtime = data.Runtime
+            it.film_genre = data.Genre
         }
 
         return arrayFilmsBeans

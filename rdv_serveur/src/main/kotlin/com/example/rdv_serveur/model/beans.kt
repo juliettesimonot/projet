@@ -44,7 +44,8 @@ data class FilmBean(
     var film_actors: String?="",
     var film_country: String?="",
     var film_runtime:String?="",
-    var film_imdb_id:String?=""
+    var film_imdb_id:String?="",
+    var film_genre:String?=""
 )
 //){
 //    constructor(film_imdb_id:Int, film_trailer:String,film_img:String) : this(0,"", "", "", film_img, URL_VIDEO+film_trailer, null, "", "", "", "", film_imdb_id)
