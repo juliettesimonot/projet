@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c282723c-3f13-4680-9e1e-e9e25f1c2dc0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea1/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea2/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea3/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea4/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea5/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rea6/main.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GZhKiw22Js0q2BatS8u6HE0Txd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/juliette/Documents/Juliette/formation/projet_filrouge/projet/rdv_serveur",
+    "spring.configuration.checksum": "906f90ae00c0ec21ed8abbb6ab9f2778"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="RdvServeurApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rdv_serveur.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rdv_serveur.RdvServeurApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c282723c-3f13-4680-9e1e-e9e25f1c2dc0" name="Changes" comment="" />
+      <created>1666601953663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666601953663</updated>
+      <workItem from="1666601955301" duration="5306000" />
+      <workItem from="1666680934544" duration="10579000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
