@@ -1,5 +1,6 @@
 package com.example.rdv_app.utils
 
+import com.example.rdv_app.model.FilmBean
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import okhttp3.OkHttpClient
@@ -26,13 +27,11 @@ object RequestUtils {
         }
     }
 
-    fun getAllStation(): List<StationBean> {
-        val json = sendGet(URL_API_SUBWAY)
+    fun getAllFilms(): List<FilmBean> {
+        val json = sendGet(URL_GET_FILMS)
 
         //Parser le JSON avec le bon bean et GSON
-        val listOfStationBean: Type = object : TypeToken<List<StationBean?>?>() {}.type
-
-
+        val listOfStationBean: Type = object : TypeToken<List<FilmBean?>?>() {}.type
 
         return gson.fromJson(json, listOfStationBean)
 

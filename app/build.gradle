@@ -7,6 +7,12 @@ android {
     namespace 'com.example.rdv_app'
     compileSdk 32
 
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+
     defaultConfig {
         applicationId "com.example.rdv_app"
         minSdk 27

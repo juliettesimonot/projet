@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c282723c-3f13-4680-9e1e-e9e25f1c2dc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rea1/main.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rea2/main.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rea3/main.html" beforeDir="false" />
@@ -42,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/juliette/Documents/Juliette/formation/projet_filrouge/projet/rdv_serveur",
-    "spring.configuration.checksum": "906f90ae00c0ec21ed8abbb6ab9f2778"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/juliette/Documents/Juliette/formation/projet_filrouge/projet/rdv_serveur&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;906f90ae00c0ec21ed8abbb6ab9f2778&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="RdvServeurApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rdv_serveur.main" />
