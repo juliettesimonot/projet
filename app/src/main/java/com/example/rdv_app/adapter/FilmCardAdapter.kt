@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.rdv_app.R
 import com.example.rdv_app.databinding.FilmCardBinding
 import com.example.rdv_app.model.FilmBean
+import com.squareup.picasso.Picasso
 
 class FilmCardAdapter : ListAdapter<FilmBean, FilmCardAdapter.ViewHolder>(Comparator()) {
 
@@ -35,7 +36,9 @@ class FilmCardAdapter : ListAdapter<FilmBean, FilmCardAdapter.ViewHolder>(Compar
         holder.binding.tvRuntime.text = currentItem.film_runtime
         holder.binding.tvRealeasedDate.text = currentItem.film_released_date
         holder.binding.tvPlot.text = currentItem.film_description
-//        holder.binding.tvGenre.text = currentItem.
+        holder.binding.tvGenre.text = currentItem.film_genre
+        Picasso.get().load(currentItem.film_img).into(holder.binding.ivCardImg)
+
 
     }
 }

@@ -14,5 +14,6 @@ data class FilmBean(
     var film_actors: String?="",
     var film_country: String?="",
     var film_runtime:String?="",
-    var film_imdb_id:String?=""
+    var film_imdb_id:String?="",
+    var film_genre:String?=""
 )

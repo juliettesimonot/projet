@@ -51,4 +51,8 @@ dependencies {
     //gson okhttp
     implementation "com.squareup.okhttp3:okhttp:4.+"
     implementation "com.google.code.gson:gson:2.3"
+
+
+    //picasso img
+    implementation 'com.squareup.picasso:picasso:2.8'
 }
